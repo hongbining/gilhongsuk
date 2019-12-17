@@ -134,22 +134,29 @@ h1{
 }
 .Project{
     background-color: rgba(154, 213, 248, 0.66);
+    padding-bottom: 50px;
 }
 .Project_title {
     text-align: center;
 }
+.Row{
+    margin: auto;
+    width: 70%;
+}
 .Box{
     display: flex;
 }
-.Box_image{    text-align: center;
+.Box_image{    
+    text-align: center;
     display: inline-block;
     width: auto;
     height: auto;
     border-radius: 10px 10px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0 1em 0 1em;
+    margin: 0em 4em 0.5em 1em;
     box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
+
 }
 .Contact {
     font-family: Roboto,sans-serif;
