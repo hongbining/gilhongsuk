@@ -138,6 +138,19 @@ h1{
 .Project_title {
     text-align: center;
 }
+.Box{
+    display: flex;
+}
+.Box_image{    text-align: center;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border-radius: 10px 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 1em 0 1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
+}
 .Contact {
     font-family: Roboto,sans-serif;
     height: 50vh;

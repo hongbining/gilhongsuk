@@ -19,7 +19,11 @@ $('li').click(function(){
     }else if(li=="프로젝트"){
         var offset = $('.Project_title').offset();
         $('html').animate({scrollTop:offset.top-63},200);
-    }else{
+    }else if(li=="Contant"){
+        var offset = $('.Contact').offset();
+        $('html').animate({scrollTop:offset.top},200);
+    }
+    else{
         $('html').animate({scrollTop:top},500);
     }
 });
