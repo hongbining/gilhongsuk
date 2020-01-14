@@ -25,7 +25,7 @@ h1{
     left: 31%;
     opacity: .8;
 }
-.header-class li{
+.header-li{
     display: inline-block;
     text-decoration: none;
     color: rgba(0,0,0,.5);
@@ -40,9 +40,8 @@ h1{
     visibility: hidden;
 }
 .bar_open {
-    padding: 20px;
+    margin: 20px;
     cursor: pointer;
-    margin: 0;
 }
 .bar_close {
     padding: 20px 20px 20px 0;
@@ -73,6 +72,7 @@ h1{
     cursor: pointer;
     color: grey;
     opacity: .6;
+    padding: 10px;
 }
 
 
@@ -144,7 +144,10 @@ h1{
     width: 70%;
 }
 .Box{
+    margin-top: 40px;
     display: flex;
+    width: 80%;
+    margin: auto;
 }
 .Box_image{    
     text-align: center;
@@ -166,20 +169,28 @@ h1{
     margin: 0;
     padding: 0;
 }
-
+.bar_menu{
+   display: none; 
+}
 @media screen and (max-width: 1477px) 
 { 
     .header-class li { 
         padding-left: 10px;
         padding-right: 10px;
-    } 
+    }
+    .Row{
+        width: 90%;
+    }
 }
 @media screen and (max-width: 1177px) 
 { 
     .header-class li { 
         padding-left: 5px;
         padding-right: 5px;
-    } 
+    }
+    .Row{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 1025px) 
 { 
@@ -189,4 +200,8 @@ h1{
     .bar_menu_container{
         visibility: visible;
     }
+    .Row{
+        width: 100%;
+    }
+    
 }

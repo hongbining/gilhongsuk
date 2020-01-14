@@ -30,7 +30,7 @@ $('li').click(function(){
 
 $('.header-li').hover(
     function(){
-    $(this).css('color','black');
+    $(this).css('color','black'); 
     },
     function(){
     $(this).css('color','rgba(0,0,0,.5)');
@@ -45,3 +45,12 @@ $('.Skill_image_container').hover(
         $(this).children().attr("style","visibility:hidden");
     }
 );
+
+$('.bar_open').click(function(){
+
+    $('.bar_menu').toggle()
+    
+});
+
+
+
