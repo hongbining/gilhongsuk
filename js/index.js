@@ -47,9 +47,7 @@ $('.Skill_image_container').hover(
 );
 
 $('.bar_open').click(function(){
-
     $('.bar_menu').toggle()
-    
 });
 
 
