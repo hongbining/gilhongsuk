@@ -17,10 +17,10 @@ $('li').click(function(){
         var offset = $('.skill_head').offset();
         $('html').animate({scrollTop:offset.top-69},200);
     }else if(li=="프로젝트"){
-        var offset = $('.Project_title').offset();
+        var offset = $('.project_title').offset();
         $('html').animate({scrollTop:offset.top-63},200);
     }else if(li=="Contant"){
-        var offset = $('.Contact').offset();
+        var offset = $('.contact').offset();
         $('html').animate({scrollTop:offset.top},200);
     }
     else{
