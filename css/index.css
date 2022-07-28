@@ -106,7 +106,7 @@ h1{
     padding-bottom: 5rem;
     background: #e7e6e6;
 }
-.Skill_image_container {
+.skill_image_container {
     text-align: center;
     display: inline-block;
     width: 114px;
@@ -117,7 +117,7 @@ h1{
     margin: 0 1em 0 1em;
     box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
 }
-.Skill_label {
+.skill_label {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,24 +132,24 @@ h1{
     color: #fff;
     visibility: hidden;
 }
-.Project{
+.project{
     background-color: rgba(154, 213, 248, 0.66);
     padding-bottom: 50px;
 }
-.Project_title {
+.project_title {
     text-align: center;
 }
-.Row{
+.row{
     margin: auto;
     width: 70%;
 }
-.Box{
+.box{
     margin-top: 40px;
     display: flex;
     width: 80%;
     margin: auto;
 }
-.Box_image{    
+.box_image{    
     text-align: center;
     display: inline-block;
     width: auto;
@@ -161,7 +161,7 @@ h1{
     box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
 
 }
-.Contact {
+.contact {
     font-family: Roboto,sans-serif;
     height: 50vh;
     width: 100%;
@@ -172,13 +172,31 @@ h1{
 .bar_menu{
    display: none; 
 }
+.company_title
+{
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.project_title
+{
+    font-weight: bold;
+}
+
+a {
+  text-decoration-line: none;
+}
 @media screen and (max-width: 1477px) 
 { 
     .header-class li { 
         padding-left: 10px;
         padding-right: 10px;
     }
-    .Row{
+    .row{
         width: 90%;
     }
 }
@@ -188,7 +206,7 @@ h1{
         padding-left: 5px;
         padding-right: 5px;
     }
-    .Row{
+    .row{
         width: 100%;
     }
 }
@@ -200,7 +218,7 @@ h1{
     .bar_menu_container{
         visibility: visible;
     }
-    .Row{
+    .row{
         width: 100%;
     }
     
