@@ -37,12 +37,12 @@ $('.header-li').hover(
     }
 );
 
-$('.Skill_image_container').hover(
+$('.skill_image_container').hover(
     function(){
-        $(this).children().attr("style","visibility:visible");
+        $(this).children().attr("style", "visibility:visible");
     },
     function(){
-        $(this).children().attr("style","visibility:hidden");
+        $(this).children().attr("style", "visibility:hidden");
     }
 );
 
